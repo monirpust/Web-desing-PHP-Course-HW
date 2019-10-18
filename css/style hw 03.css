@@ -1,0 +1,75 @@
+	
+	* {
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	body {
+		margin: 0;
+		font: normal 100% 'trebuchet ms', sans-serif;
+		color: #555;
+		width: 100%;
+		height: 880px;
+	}
+	
+	p{
+		font-size: 12px;
+		padding: 0 0 20px 0;
+		line-height: 1.7em;
+	}
+
+	.overflo-hidden {
+		overflow: hidden;
+	}
+
+	.container{
+		width: 880px;
+		margin: 0 auto;
+	}
+
+	div {
+		background: #555555;
+		width: 1263px;
+		height: 40px;
+		margin-top: 10px;
+
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+
+	}
+
+	ul li{
+		float: left;
+		padding: 5px;
+		border-right: 1px solid white;
+		height: 30px;
+		text-align: center;
+		display: inline;
+
+	}
+
+	ul li a{
+		display: inline;
+		text-decoration: none;
+		color: white;
+		text-align: center;
+
+	}
+
+	ul li:hover {
+		background: black;
+	}
+
+	#selected {
+		background: #008000;
+
+	}
+
+	.about {
+		float: right;
+	}
